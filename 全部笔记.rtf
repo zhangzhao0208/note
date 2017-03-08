@@ -1,0 +1,661 @@
+{\rtf1\ansi\ansicpg936\cocoartf1265\cocoasubrtf210
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset134 STHeitiSC-Light;\f2\fswiss\fcharset0 Helvetica-Light;
+\f3\fnil\fcharset0 Menlo-Regular;\f4\fnil\fcharset0 Verdana;\f5\fnil\fcharset0 Consolas;
+}
+{\colortbl;\red255\green255\blue255;\red65\green204\blue69;\red38\green38\blue38;\red74\green74\blue74;
+}
+\paperw11900\paperh16840\margl1440\margr1440\vieww19200\viewh12340\viewkind0
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+
+\f0\fs48 \cf0 1.
+\f1 \'b6\'a8\'ca\'b1\'c6\'f7
+\f0 \
+[Nstimer scheduledTimerWithTimeInterval:3 target:self selector :@selector(timer) userinfo :nil repeats:	Yes];\
+
+\f1 \'ca\'d6\'b6\'af\'b0\'d1\'b6\'a8\'ca\'b1\'c6\'f7\'bc\'d3\'c8\'eb\'b5\'bd\'cf\'fb\'cf\'a2\'d1\'ad\'bb\'b7\'d6\'d0
+\f0 ,
+\f1 \'c9\'e8\'d6\'c3\'cf\'fb\'cf\'a2\'d1\'ad\'bb\'b7\'c4\'a3\'ca\'bd\'ce\'aa\'cd\'a8\'d3\'c3\'c4\'a3\'ca\'bd
+\f0 \
+[NSRunLoop currentRunLoop]addTimer:timer  forMode:NSRunLoopCommonModes]\
+2.
+\f1 \'ca\'d7\'ce\'b2\'b6\'af\'bb\'ad
+\f0 \
+[Uiview begin animations :@\'93\'94 context:(__bridge void*)(imageview)];\
+[UIview setanimationDuration:3];\
+[ UIview setanimationrepeatCount :1];\
+[UIview setanimationrepeatAutoreverses:Yes]\
+[UIview setanimationCurve:uiviewanimationcurvelinear]\
+[UIview setanimationDelegate:self];\
+[UIview setanimationDidStopSeletor@Seletor(animationDidStop :finished :context:)];\
+[UIview commitAnimations];\
+-(void)animationDidStop:(Nsstring *)animationID finished:(Nsnumber *)finished context:(void*)context\
+\{\
+\}\
+\
+3.
+\f1 \'d7\'d6\'b7\'fb\'b4\'ae\'b1\'c8\'bd\'cf
+\f0 \
+[animationID isEqualTOstring @\'93\'94];\
+4.
+\f1 \'cb\'e6\'bb\'fa\'ca\'fd
+\f0 \
+int b=arc4random()%20; 0-19;\
+5.
+\f1 \'d6\'a1\'b6\'af\'bb\'ad:array\'ca\'fd\'d7\'e9\'c0\'ef\'c3\'e6\'d7\'b0\'b5\'c4\'ca\'c7UIimage\'b6\'d4\'cf\'f3
+\f0 \
+imageview.animationImages=array;\
+imageview.animationduration=3;\
+imageview.animationrepeacount=1\
+[imageview startanimating]\
+[imageview stopanimating ]\
+6.
+\f1 \'d7\'d6\'b7\'fb\'b4\'ae\'b5\'c4\'b3\'a4\'b6\'c8
+\f0 \
+int length =[text length]\
+7.
+\f1 \'c7\'d0\'bb\'bb\'bd\'e7\'c3\'e6\'b5\'bd\'d7\'ee\'c7\'b0\'c3\'e6
+\f0 ,
+\f1 \'d7\'ee\'ba\'f3\'c3\'e6
+\f0 \
+[self.view bringsubviewtofront :view]\
+[self.view sendsubviewtoback:view];\
+8.
+\f1 \'bf\'d8\'d6\'c6\'bc\'fc\'c5\'cc\'b5\'af\'c9\'cf\'c0\'b4\'b5\'af\'cf\'c2\'c8\'a5\
+
+\f2 -(void)touchesBegan:(Nsset *)touches  withEvent:(Uievent*)event\
+\{\
+[self.window endEditing:Yes];\
+[textField  resignFirstResponder]\
+9.
+\f1 \'bc\'d3\'d4\'d8\'d3\'eb\'c0\'e0\'c3\'fb\'b2\'bb\'cd\'ac\'b5\'c4
+\f2 xib
+\f1 \'ce\'c4\'bc\'fe
+\f2 \
+XDviewController *second=[XDviewcontroller alloc]initWithNIbName:@\'93\'94 bundle:nil]\
+\
+10.
+\f1 \'b8\'f9\'be\'dd\'d7\'d6\'cc\'e5\'b4\'f3\'d0\'a1\'c8\'b7\'b6\'a8\'bf\'d8\'bc\'fe\'b4\'f3\'d0\'a1
+\f2 \
+CGsize size=[text sizeWithFont:[UIfont systemFontOfSize:17]];\
+11.
+\f1 \'cf\'b5\'cd\'b3\'cc\'e1\'b9\'a9\'b5\'c4\'bb\'e6\'cd\'bc\'b7\'bd\'b7\'a8
+\f2 ,
+\f1 \'b5\'b1\'c6\'c1\'c4\'bb\'d6\'d0\'d3\'d0\'d0\'c2\'b5\'c4\'bf\'d8\'bc\'fe\'b3\'f6\'cf\'d6\'b5\'c4\'ca\'b1\'ba\'f2\'bb\'e1\'b5\'f7\'d3\'c3\'b8\'c3\'b7\'bd\'b7\'a8
+\f2 \
+-(void)drawRect:(CGrect)rect\
+\{[super drawrect :rect]\}\
+12.
+\f1 \'b6\'e0\'cc\'ac\'cc\'d8\'d0\'d4
+\f2 \
+
+\f1 \'b8\'b8\'c0\'e0\'d6\'b8\'d5\'eb\'d6\'b8\'cf\'f2\'d7\'d3\'c0\'e0\'b5\'c4\'b6\'d4\'cf\'f3\'cd\'c6\'bc\'f6
+\f2 \
+13.
+\f1 \'d6\'d8\'d0\'b4
+\f2 init
+\f1 \'b7\'bd\'b7\'a8
+\f2 :
+\f1 \'b1\'d8\'d0\'eb\'b5\'f7\'d3\'c3\'b8\'b8\'c0\'e0\'b5\'c4\'b3\'f5\'ca\'bc\'bb\'af\'b7\'bd\'b7\'a8,\'c5\'d0\'b6\'cf\'b8\'b8\'c0\'e0\'b3\'f5\'ca\'bc\'bb\'af\'ca\'c7\'b7\'f1\'b3\'c9\'b9\'a6,\'b5\'b1\'b8\'b8\'c0\'e0\'b3\'f5\'ca\'bc\'bb\'af\'b3\'c9\'b9\'a6\'ba\'f3\'b2\'c5\'b3\'f5\'ca\'bc\'bb\'af\'d7\'d3\'c0\'e0:self=[super init];if(self)\{\}    ;\
+\'d6\'d8\'d0\'b4\'b8\'b8\'c0\'e0\'b5\'c4\'c6\'e4\'cb\'fb\'b7\'bd\'b7\'a8\'d6\'f7\'d2\'aa\'b5\'f7\'d3\'c3\'b8\'b8\'c0\'e0\'b5\'c4\'b7\'bd\'b7\'a8,\
+\
+\
+\
+14.\'bc\'fc\'c5\'cc\'b5\'c4\'c0\'e0\'d0\'cd\
+textfield.keyboardtype=\'bc\'fc\'c5\'cc\'b5\'c4\'c0\'e0\'d0\'cd\
+texrfield.returnkeytype=\'b7\'b5\'bb\'d8\'bc\'fc\'b5\'c4\'c0\'e0\'d0\'cd
+\f2 \
+\
+\
+15.
+\f1 \'bd\'e1\'b9\'b9\'cc\'e5\'b5\'c4\'ca\'fd\'be\'dd\'c0\'e0\'d0\'cd\'d7\'aa\'bb\'af
+\f2 \
+CGpoint point=CGpointMake(1,1)\
+NSvalue *p=[NSvalue valueWithCGpoint:point]\
+CGpoint point=[p CGpointvalue ]\
+CGrect rect=CGRectMake()\
+NSvalue *r=[NSvalue valueWithCGrect:rect]\
+CGRect rect=[r CGRectValue]\
+
+\f1 \'c6\'b4\'bd\'d3\'bd\'e1\'b9\'b9\'cc\'e5\'b5\'c4\'d7\'d6\'b7\'fb\'b4\'ae
+\f2 \
+NSstringFromCGPoint\
+\
+\
+16.AlertView
+\f1 \'b5\'c4\'d0\'ad\'d2\'e9\'b7\'bd\'b7\'a8\
+AlertView.AlertViewStyle=
+\f2 \
+-(void)alertView:(UIAlertView *)alertView  clickedButtonAtIndex:(NSinteger)buttonindex\
+\
+17.
+\f1 \'bd\'e7\'c3\'e6\'d6\'ae\'bc\'e4\'b7\'ad\'d7\'aa\'b7\'bd\'ca\'bd\'b4\'f8\'d3\'d0\'b6\'af\'bb\'ad\'d0\'a7\'b9\'fb\
+[UIView setAnimationTransition: UIViewAnimationTransitionFlipFromRIght  forView :  Window cache:Yes]\
+forView\'cc\'ee\'d0\'b4\'b5\'c4\'b1\'d8\'d0\'eb\'ca\'c7\'b5\'b1\'c7\'b0\'ca\'d3\'cd\'bc\'cb\'f9\'d4\'da\'b5\'c4\'b8\'b8\'ca\'d3\'cd\'bc\
+\
+\
+18.\'b9\'f6\'b6\'af\'ca\'d3\'cd\'bc\'ba\'cdPageController\
+\'c8\'f4\'cc\'ed\'bc\'d3\'c1\'cb\'b5\'bc\'ba\'bd\'bf\'d8\'d6\'c6\'c6\'f7,\'c8\'e7\'b9\'fb\'b5\'bc\'ba\'bd\'bf\'d8\'d6\'c6\'c6\'f7\'cf\'c2\'b7\'bd\'b5\'c4\'b5\'da\'d2\'bb\'b8\'f6\'ca\'d3\'cd\'bc\'ca\'c7ScrollView,\'bb\'f2\'d5\'df\'ca\'c7\'bc\'cc\'b3\'d0\'c1\'cbScrollView\'b5\'c4\'ca\'d3\'cd\'bccontent,\'d4\'f2ScrollView\'b5\'c4\'c9\'cf\'b5\'c4\'ca\'d3\'cd\'bc\'bb\'e1\'b2\'fa\'c9\'fa\'c6\'ab\'d2\'c6,\'c8\'a1\'cf\'fb\'d5\'e2\'b8\'f6\'ca\'f4\'d0\'d4\
+self.automaticallyAdjustsScrollViewInsets=NO;\
+ScrollView.contenSize=CGsizeMake\
+ScrollView.showsHorizontalScrollIndicator\
+\'c9\'e8\'d6\'c3ScrollView\'b5\'c4\'cb\'ae\'c6\'bd\'d6\'b8\'ca\'be\'cc\'f5\
+showsVerticalScrollIndicator\
+\'c9\'e8\'d6\'c3\'b4\'b9\'d6\'b1\'d6\'b8\'ca\'be\'cc\'f5\
+pagingEnabled\
+\'c9\'e8\'d6\'c3\'b7\'d6\'d2\'b3\'cf\'d4\'ca\'be\
+bounces\
+\'b5\'af\'d0\'d4\'d0\'a7\'b9\'fb\
+contentOffset\
+\'c6\'ab\'d2\'c6\'c1\'bf\
+page.numberOfPages=5\
+\'d0\'a1\'d4\'b2\'b5\'e3\'b5\'c4\'b8\'f6\'ca\'fd\
+page.pageIndicatorTintcolor\
+\'cb\'f9\'d3\'d0\'d0\'a1\'d4\'b2\'b5\'e3\'b5\'c4\'d1\'d5\'c9\'ab\
+page.currentPageIndicatorTintcolor\
+\'b5\'b1\'c7\'b0\'d0\'a1\'d4\'b2\'b5\'e3\'b5\'c4\'d1\'d5\'c9\'ab\
+page.currentPage\
+\'b5\'b1\'c7\'b0\'d0\'a1\'d4\'b2\'b5\'e3\'b5\'c4\'ce\'bb\'d6\'c3\
+\
+\
+19.\'b6\'e0\'cf\'df\'b3\'cc\
+[NSThread detachNewThreadSelector:@seletor to target:self withObject:nil]\
+[NSThread sleepForTimeInterval:2]\
+[self performSelectoronMainThread@seletor withObject:nil waitUntilDone:yes]\
+\
+20.\'d1\'d3\'ca\'b1\'d6\'b4\'d0\'d0\'b7\'bd\'b7\'a8\
+[imageView performSelector:self withObject:id  afterDelay:2 ]\
+\
+\
+21.\'b5\'bc\'ba\'bd\'bf\'d8\'d6\'c6\'c6\'f7\
+UInavigationController *navigation=[UInavigationController alloc]initwithRootViewController:view]\
+navigation.navigationbarHidden=yes\
+navigation.toolbarHidden=yes\
+self.navigationItem.title=@\
+[self.navigationController.naviagtionbar setTranslucent]\
+[self.navigationController.navigationbar setBarTintcolor:]\
+[self.navigationController.navigationbar setTitleTextAttributtes: @NsfontAttributteName      NSforegroundColorAttributeName]\
+\'cd\'a8\'b9\'fd\'b5\'bc\'ba\'bd\'cb\'f7\'d2\'fd\'c0\'b4\'d1\'b0\'d5\'d2\'cb\'f9\'d0\'e8\'d2\'aa\'b5\'c4\'bd\'e7\'c3\'e6\
+XDViewController *View=[self.navigationController.viewControllers  objectAtindex :]\
+\'c9\'e8\'d6\'c3\'b5\'bc\'ba\'bd\'b5\'c4\'b7\'b5\'bb\'d8\'b0\'b4\'c5\'a5\
+self.navigationItem.backBarButtonItem\
+\
+22.00\'c8\'e7\'ba\'ce\'ca\'e4\'b3\'f6\
+Nslog(@%.2d)\
+\
+23.\'cd\'a8\'b9\'fd\'bf\'d8\'bc\'fe\'b5\'c4tag\'d6\'b5\'b4\'d3View\'c9\'cf\'bb\'f1\'c8\'a1\'bf\'d8\'bc\'fe\'b6\'d4\'cf\'f3\
+button=(UIButton *)[self.view viewWithTag:1]\
+\
+24.webView\'b5\'c4\'ca\'b9\'d3\'c3\
+UIWebView *View=[UIWebView alloc]init]\
+NSURL *url=[NSURL alloc]initwithString@http://www.baidu.com]\
+NSURLRequest *request=[NSURLRequest alloc]initwithURL:url]\
+[web loadrequest:request]\
+\
+25.\'bc\'f4\'b2\'c3\'bd\'e7\'c3\'e6\
+View.clipsToBounds=yes\
+View.layer.cornerRadius=50;\
+\
+26.\'c8\'fd\'c4\'bf\'d4\'cb\'cb\'e3\'b7\'fb\
+float y=a<5?300:360\
+\
+27.\'c4\'a3\'cc\'ac\'cc\'f8\'d7\'aa\
+competion:\'ca\'c7\'b7\'e2\'d7\'b0\'b4\'fa\'c2\'eb\'b5\'c4,\'bd\'e7\'c3\'e6\'b5\'af\'b3\'f6\'d6\'ae\'ba\'f3\'bc\'cc\'d0\'f8\'b5\'c4\'b2\'d9\'d7\'f7\
+[self presentViewController: View animated:yes  completion:nil]\
+\
+\
+28.Block\'b6\'af\'bb\'ad\
+[UIview animatewithDuration:2 animations  :coder   completion:(Bool  finished )]\
+animations\'ba\'f3\'c3\'e6\'b5\'c4\'cc\'ee\'d0\'b4\'b6\'af\'bb\'ad\'b4\'fa\'c2\'eb\
+comlietion:\'ba\'f3\'c3\'e6\'cc\'ee\'d0\'b4\'b6\'af\'bb\'ad\'bd\'e1\'ca\'f8\'ba\'f3\'b4\'fa\'c2\'eb,\'bf\'c9\'d2\'d4\'b6\'af\'bb\'ad\'cc\'d7\'d3\'c3\
+29.picker\'d1\'a1\'d4\'f1\'c6\'f7\
+UIPickerView *picker=\
+picker.dataSource=self\
+picker.delegate=self\
+\'c9\'e8\'d6\'c3PickerView\'b5\'c4\'c1\'d0\'ca\'fd\
+-(NSinteger)numberOfcmponentsInPckerView:(UIpickerView*)pickerView\
+\'c9\'e8\'d6\'c3\'c3\'bf\'d2\'bb\'c1\'d0\'b5\'c4\'d0\'d0\'ca\'fd\
+-(NSinteger)pickerView:(UIpickerView*)pickerView numberOfRowsInComponent:(Nsinterger)component\
+\'c9\'e8\'d6\'c3\'c3\'bf\'d2\'bb\'c1\'d0\'b5\'c4\'bf\'ed\'b6\'c8\
+-(cgFloat)pickerView:(UIpickerView*)pickerView width\
+ForComponent:(NSinteger)component\
+\'c9\'e8\'d6\'c3\'c3\'bf\'d2\'bb\'c1\'d0\'c3\'bf\'d2\'bb\'d0\'d0\'b5\'c4\'b8\'df\'b6\'c8\
+-(CGfloat)pickerView:(UIpickerView*)pickerView rowHeightForcomponent:(NSinteger)component\
+\'c9\'e8\'d6\'c3\'c3\'bf\'d2\'bb\'d0\'d0\'b5\'c4\'b1\'ea\'cc\'e2\
+-(NSstring)pickerView:(UIpickerView*)pickerView  titleForRow:(NSinteger)row for component:(Nsinteger)component\
+\
+30.\'c8\'d5\'c6\'da\'d1\'a1\'d4\'f1\'c6\'f7\
+UIDatepicker *datepicker\
+\'bb\'f1\'c8\'a1\'b5\'b1\'c7\'b0\'b5\'c4\'ca\'b1\'bc\'e4\
+NSdate *date=[NSdate date]\
+\'b4\'d3\'c4\'c4\'b8\'f6\'ca\'b1\'bc\'e4\'bf\'aa\'ca\'bc\'d6\'ae\'ba\'f3\'b9\'fd\'c1\'cb\'b6\'e0\'b3\'a4\'ca\'b1\'bc\'e4\
+[NSdate  dateWithTimeInterval:      sinceDate:]\
+\'b4\'b4\'bd\'a8\'d2\'bb\'b8\'f6\'c8\'d5\'c6\'da\'b8\'f1\'ca\'bd\'bb\'af\'c6\'f7\
+NSdateFormatter *formatter=[NSdateFormatter alloc]\
+\'c9\'e8\'d6\'c3\'c8\'d5\'c6\'da\'b8\'f1\'ca\'bd\'bb\'af\'c6\'f7\'b5\'c4\'b8\'f1\'ca\'bd\
+[formatter setDateFormat:@yyyy\'a1\'aaMM\'a1\'aadd   hh:mm:ss   MMMM   eeee  a]\
+MMMM\'a1\'aa\'d4\'c2\'b7\'dd     eeee\'a1\'aa\'d0\'c7\'c6\'da     a\'a1\'aa\'c9\'cf\'ce\'e7\'bb\'b9\'ca\'c7\'cf\'c2\'ce\'e7\
+\'d7\'d4\'b6\'a8\'d2\'e5\'ca\'e4\'b3\'f6\'c8\'d5\'c6\'da\'b5\'c4\'b8\'f1\'ca\'bd\
+[formatter setWeekdaySymbols:array]\
+[formatter  setAMsymbol:@]\
+\'b0\'d1\'c8\'d5\'c6\'da\'b8\'f1\'ca\'bd\'d7\'aa\'bb\'af\'b3\'c9\'d7\'d6\'b7\'fb\'b4\'ae\'b8\'f1\'ca\'bd\
+[formatter stringFormDate:date]\
+\
+\
+31  \'b1\'ed\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\
+UITableView *tableView=[UITableView alloc]initWithFrame:   style]\
+\'c9\'e8\'d6\'c3\'b5\'a5\'d4\'aa\'b8\'f1\'cf\'c2\'bb\'ae\'cf\'df\
+tableView.separatorColor\
+tableView.separatorStyle\
+\'c9\'e8\'d6\'c3\'b7\'d6\'b8\'ee\'cf\'df\'b5\'c4\'ce\'bb\'d6\'c3\
+tableView.separatorInset=UIEdgeInsetsMake()\
+\'c8\'c3\'b1\'ed\'ca\'be\'cd\'bc\'b9\'f6\'b6\'af\'b5\'bd\'c4\'b3\'d2\'bb\'d0\'d0\
+[table scrollToRowAtIndexPath:indexPath  atScrollPosition:    animated:]\
+\'b3\'f6\'c1\'d0\'b5\'a5\'d4\'aa\'b8\'f1\
+UITableViewCell *cell=[tableView  dequeueReusableCellWithIndentifier:@\'a1\'b0cell\'a1\'b1]\
+\'cd\'a8\'b9\'fdindexPath\'c0\'b4\'bb\'f1\'c8\'a1cell\'b5\'c4\'b6\'d4\'cf\'f3\
+UITableCell *cell=[tableView  cellForRowAtIndexPath:indexPath]\
+\'c9\'e8\'d6\'c3\'b5\'a5\'d4\'aa\'b8\'f1\'d1\'a1\'d6\'d0\'c4\'b3\'d2\'bb\'d0\'d0\'ba\'f3\'b3\'f6\'cf\'d6\'b1\'b3\'be\'b0View\
+cell.selectionStyle\
+\'c9\'e8\'d6\'c3\'c7\'f8\'cb\'f7\'d2\'fd\'b1\'ea\'cc\'e2\
+-(NSArray)sectionIndexTitlesForTableView(UITableView)tableView\
+\'cf\'b5\'cd\'b3\'b5\'a5\'d4\'aa\'b8\'f1\'c9\'cf\'b5\'c4\'d3\'d2\'b2\'e0\'b5\'c4\'c5\'e4\'bc\'fe\
+cell.accessoryType\
+\'b5\'e3\'bb\'f7\'c5\'e4\'bc\'fe\'b5\'c4\'b0\'b4\'c5\'a5\'ca\'b1\'d6\'b4\'d0\'d0\'b5\'c4\'b7\'bd\'b7\'a8\
+-(void)tableView:(UITableView*)tableView accessoryButtonTappedForRowWithIndexPath\
+\
+\'b5\'e3\'bb\'f7cell\'ca\'b1\'b3\'f6\'cf\'d6\'b5\'c4View\'b8\'f1\'ca\'bd\
+cell.selectionStyle=\
+\
+\
+\
+32.\'ca\'e4\'c8\'eb\'bf\'f2\'b5\'c4\'d0\'ad\'d2\'e9\'b7\'bd\'b7\'a8\
+-(Bool)textFieldShouldReturn:(UITextFIeld*)textField\
+\
+33.\'bc\'d3\'d4\'d8xib\'b5\'c4\'b1\'ed\'ca\'be\'cd\'bc\'b5\'c4\'b5\'a5\'d4\'aa\'b8\'f1\
+[tableView registerNib:[UINib nibWithName:] bundle:nil  forCellReuseIdentifier:]\
+cell=[tableView dequeueReusableCellWithIndentifier@  forIndexPath]\
+\
+34.\'d7\'a2\'b2\'e1\'b7\'a8\'bc\'d3\'d4\'d8cell\'b5\'c4\'c0\'e0\
+[tableView registerClass:[UITableView class]forCellreuseIndentifier]\
+\
+35.\'d2\'bb\'b8\'f6xib\'c9\'cf\'d3\'d0\'b6\'e0\'b8\'f6cell\
+\'b2\'bb\'d0\'e8\'d2\'aa\'d7\'a2\'b2\'e1,\'d6\'b1\'bd\'d3\'d4\'dacell\'b5\'c4\'d0\'ad\'d2\'e9\'b7\'bd\'b7\'a8\'c0\'ef\'bc\'d3\'d4\'d8\
+NSArray*cellArray=[NSBundle mainBundle]loadNIbNamed:  owner:nil options:nil]\
+\
+36.\'cb\'a2\'d0\'c2tableView\'c4\'c4\'d2\'bb\'b8\'f6\'c7\'f8\
+NSMutableIndexSet *set=[NSMutableIndexSet  alloc]init]\
+[set addIndex:]\
+[tableView reloadSections:[NSIndexSet  indexSetWithIndex:]withRowAnimation:]\
+\
+\
+37.BOOL\'ca\'fd\'d7\'e9\
+  BOOL  flag[10]\
+\
+\
+38.\'b1\'ed\'ca\'be\'cd\'bc\'b4\'a6\'d3\'da\'b1\'e0\'bc\'ad\'d7\'b4\'cc\'ac\
+[tableView setEditing:]\
+\'bb\'f1\'c8\'a1\'be\'af\'ca\'be\'bf\'f2\'c9\'cf\'b5\'c4textField\
+UITextField *tf=[alertView textFieldAtIndex: ]\
+\'be\'af\'b8\'e6\'bf\'f2\'b5\'c4\'d1\'f9\'ca\'bd\
+alertView.alertViewStyle\
+\
+\'d4\'da\'b1\'ed\'ca\'be\'cd\'bc\'c4\'da\'b2\'e5\'c8\'eb\'d2\'bb\'d0\'d0\
+NSIndexPath *indexPath=[NSIndexPath indexPathForRow:  inSection]\
+[table insertRowsAtIndexPath :NSIndexPath withRowAnimation:]\
+\'c9\'be\'b3\'fd\'d2\'bb\'d0\'d0\
+[tableView  deleteRowsAtIndexPaths:NSIndexPath  withRowAnimation:]\
+\'b1\'ed\'ca\'be\'cd\'bc\'d4\'da\'bd\'e1\'ca\'f8\'b1\'e0\'bc\'ad\'b5\'c4\'ca\'b1\'ba\'f2\'b5\'f7\'d3\'c3\'b5\'c4\'b7\'bd\'b7\'a8\
+-(void)tableView:(UITableView*)tableView commitEditingStyle:    editingStyle  forRowAtIndexPath\
+   \
+\
+\
+39.\'cd\'bc\'c6\'ac\'d0\'fd\'d7\'aa\'b5\'c4\'b7\'bd\'b7\'a8\
+imageView.transform=CGffineTransformMakeRotation:M_PI\
+\
+\
+40.\'c4\'a3\'cc\'ac\'cc\'f8\'d7\'aa\'b5\'c4\'b7\'bd\'b7\'a8\
+[self presentViewController animated:yes  completion]\
+\'c9\'e8\'d6\'c3\'c4\'a3\'cc\'ac\'cc\'f8\'d7\'aa\'d6\'ae\'ba\'f3\'b5\'c4\'d1\'f9\'ca\'bd\
+[VC modalPresentationStyle]\
+\'c9\'e8\'d6\'c3\'c4\'a3\'cc\'ac\'b5\'af\'b3\'f6\'ca\'b1\'b5\'c4\'b7\'e7\'b8\'f1\
+[VC  modalTransitionStyle]\
+\
+\
+41.\'d7\'d6\'b5\'e4\
+\'b8\'f8\'d7\'d6\'b5\'e4\'cc\'ed\'bc\'d3\'b6\'d4\'cf\'f3(\'c8\'f4\'bc\'fc\'d6\'b5\'d2\'d1\'be\'ad\'b4\'e6\'d4\'da\'d4\'f2\'d0\'de\'b8\'c4\'d7\'d6\'b5\'e4\'d6\'d0\'bc\'fc\'d6\'b5\'b6\'d4\'cf\'f3\'b5\'c4\'d6\'b5)\
+[dictionary setValue:  forKey: ]\
+\
+42.\'bc\'c6\'cb\'e3\'ce\'c4\'d7\'d6\'b5\'c4\'b8\'df\'b6\'c8\
+CGSize size=[text  sizeWithFont:    constrainedToSize:CGSizeMake()   lineBreakMode:]\
+\
+\
+43.UIControl\
+UIControl\'ca\'c7button\'b5\'c4\'b8\'b8\'c0\'e0,\'bf\'c9\'d2\'d4\'b0\'f3\'b6\'a8\'b7\'bd\'b7\'a8,\'cd\'ac\'ca\'b1\'d2\'b2\'ca\'c7UIView\'b5\'c4\'d7\'d3\'c0\'e0,\'bf\'c9\'d2\'d4\'cf\'d4\'ca\'be\
+\
+\
+44.\'c0\'ad\'c9\'ec\'cd\'bc\'c6\'ac\'b1\'df\'d4\'b5\'b5\'c4\'b7\'bd\'b7\'a8\
+UIImage *Image=[UIImage  imageNamed:]\
+UIImage *Img=[image   stretchableImageWithLeftCapWidth:     topCapHeight:   ]\
+\'bc\'f4\'b2\'c3\'ca\'d3\'cd\'bc\
+View.clipsToBounds\
+View.layer.cornerRadius\
+\
+\
+\
+45.\'d5\'d2\'b5\'bd\'c9\'b3\'ba\'d0\'b5\'c4\'ce\'c4\'bc\'fe\'c2\'b7\'be\'b6\
+NSString *filePath=NSHomeDirectory();\
+\'d7\'b7\'bc\'d3\'c6\'b4\'d0\'b4\'d7\'d6\'b7\'fb\'b4\'ae\
+NSString*str=[filePath  stringByAppendingString:@\'a1\'b0/Documents\
+\'a1\'b1]\'b2\'bb\'bf\'c9\'d2\'d4\'ca\'a1\'c2\'d4/\
+\'d7\'b7\'bc\'d3\'d7\'d6\'b7\'fb\'b4\'ae\'c6\'b4\'d0\'b4\'b5\'d8\'d6\'b7\
+NSstring *documentsPath=[filePath  stringByAppendingString:@\'a1\'b0Documents\'a1\'b1]ke\'bf\'c9\'d2\'d4\'ca\'a1\'c2\'d4/\
+\
+46.\'b4\'d3\'b1\'be\'b5\'d8\'bc\'d3\'d4\'d8\'ca\'fd\'d7\'e9\
+\'ce\'c4\'bc\'fe\'b9\'dc\'c0\'ed\'d5\'df\
+NSFileManager*fileManager=[NSFileManager defaultManager];\
+\'c5\'d0\'b6\'cf\'c2\'b7\'be\'b6\'cf\'c2\'ca\'c7\'b7\'f1\'b4\'e6\'d4\'da\'ce\'c4\'bc\'fe\
+BOOL isExists=[fileManager   fileExistsAtPath:filePath]\
+\'b4\'d3\'b1\'be\'b5\'d8\'bc\'d3\'d4\'d8\
+array=[NSMutableArray  alloc]initWithContentsOfFile:filePath];\
+\
+47.\'b0\'d1\'ca\'fd\'d7\'e9\'b4\'e6\'c8\'eb\'b1\'be\'b5\'d8\'ce\'c4\'bc\'fe\
+\'b0\'d1\'b6\'d4\'cf\'f3\'b4\'e6\'c8\'eb\'b1\'be\'b5\'d8\'c9\'b3\'ba\'d0\'ce\'c4\'bc\'fe\'d4\'f2\'b6\'d4\'cf\'f3\'b1\'d8\'d0\'eb\'d7\'f1\'ca\'d8NSCoding\'d0\'ad\'d2\'e9,\'d6\'bb\'d2\'aaNSString NSData\'bf\'c9\'d2\'d4\'d6\'b1\'bd\'d3\'b4\'e6\'c8\'eb\'b1\'be\'b5\'d8\'c9\'b3\'ba\'d0,NSArray,\'ba\'cdNSDictionary\'b4\'a2\'b4\'e6\'b5\'c4\'b6\'d4\'cf\'f3\'b1\'d8\'d0\'eb\'d7\'f1\'ca\'d8NSCoding\'d0\'ad\'d2\'e9\'b2\'c5\'c4\'dc\'b4\'e6\'c8\'eb\'b1\'be\'b5\'d8\'c9\'b3\'ba\'d0\
+NSString*filePath=[NSHomeDirectory()  stringByAppendingPathComponent:@\'a1\'b0Documents/array\'a1\'b1]\
+NSArray *array=[NSArray arrayWithObject@](\'c8\'f4\'ca\'fd\'d7\'e9\'d6\'d0\'b6\'d4\'cf\'f3\'c8\'ab\'b2\'bf\'ce\'aa\'d7\'d6\'b7\'fb\'b4\'ae\'bb\'f2NSData\'c0\'e0\'d0\'cd\'b5\'c4\'ca\'fd\'be\'dd)\
+\
+[array  writeToFile:filePath  atomically:YES]\
+\'c8\'a1\'b3\'f6\'b1\'be\'b5\'d8\'b5\'c4\'ca\'fd\'d7\'e9\
+NSArray*array=[NSArray alloc]initWithContentsOfFile:filePath]\
+\
+\'b2\'bb\'ca\'c7NSString\'ba\'cdNSData\'c0\'e0\'d0\'cd\'b5\'c4\'b6\'d4\'cf\'f3\'b4\'e6\'c8\'eb\'b1\'be\'b5\'d8\'c9\'b3\'ba\'d0\'b1\'d8\'d0\'eb\'bd\'f8\'d0\'d0\'d0\'f2\'c1\'d0\'bb\'af\
+NSString*filePath=[NSHomeDirectory()  stringByAppendingPathComponent:@\'a1\'b0Documents/array\'a1\'b1]\
+NSArray *Array=[NSArray arrayWithObject@]\
+NSDate *data=[NSKeyedArchiver archivedDataWithRootobject:Array]\
+\
+[data  writeToFile:filePath  atomically:YES]\
+\
+NSArray*array=[NSKeyedUNarchiver  unarchiveobjectWithFile:filePath]\
+\
+\
+\'b6\'d4\'cf\'f3\'d0\'f2\'c1\'d0\'bb\'af\'b5\'c4\'b9\'fd\'b3\'cc\
+1.\'c9\'f9\'c3\'f7NSCoding\'d0\'ad\'d2\'e9\
+2.\'ca\'b5\'cf\'d6\'b7\'bd\'b7\'a8\'b0\'d1\'b6\'d4\'cf\'f3\'d0\'f2\'c1\'d0\'bb\'af(\'b0\'d1\'b6\'d4\'cf\'f3\'d7\'aa\'bb\'af\'ce\'aa\'b6\'fe\'bd\'f8\'d6\'c6\'b5\'c4\'ca\'fd\'be\'dd)\
+-(void)encodeWithCoder:(NSCoder*)aCoder\
+\{  [aCoder   encodeObject:    forKey:@]\
+\}\
+3.\'b0\'d1\'d0\'f2\'c1\'d0\'bb\'af\'b5\'c4\'b6\'d4\'cf\'f3\'d7\'e9\'ba\'cf\'b3\'f6\'c0\'b4,\'d6\'d8\'d0\'c2\'d7\'aa\'bb\'af\'ce\'aa\'ca\'f4\'d0\'d4\
+-(id)initWithCoder:(NSCoder*)aDecoder\
+\{  self=[super  init]\
+if(self)\
+self.property=[aDecoder  decodeObjectForKey@]\
+\}\
+48.\'b5\'a5\'c0\'fd\'c0\'e0\
+\
+[UIApplacation  sharedApplication]\
+[NSFileManager  defaultManager]\
+[NSUserDefaults  standardUserDefaults]\
+\'b4\'b4\'bd\'a8NSUserDeFaults\'b5\'c4\'b6\'d4\'cf\'f3\
+NSUserDefaults*userDefaults=[NSUserDefaults   standardUserDefaults]\
+\'d4\'daNSUserDefaults\'d6\'d0\'b4\'e6\'c8\'eb\'c4\'da\'c8\'dd\
+[userDefaults setobject:@\'a1\'b0\'a1\'b1  forKey:]\
+\'c2\'ed\'c9\'cf\'cd\'ac\'b2\'bd\
+[userDefaults  synchronize\
+\'b6\'c1\'c8\'a1\'b3\'f6NSUserDeFaults\'b5\'c4\'d6\'b5\
+NSUserDeFaults *userDeFaults=[NSUserDeFaults  stadardUseDefaults]\
+NSString *name=[userDefaults  objectForKey:\'a1\'b1Key\'a1\'b1]\
+\
+49.\'d5\'d2\'b9\'ca\'ca\'c2\'b0\'e6\
+UIStoryboard *storyBoard=[UIStoryboard  storyboardWithName:Main  bundle:nil]\
+VC=[storyBoard  instantiateInitialViewController]\
+UIWindow*window\
+window.rootViewController=VC\
+\
+\
+50.  FMDB\'ca\'fd\'be\'dd\'bf\'e2\
+\
+1.\'b5\'bc\'c8\'ebSqlite3\'ca\'fd\'be\'dd\'bf\'e2\
+2.\'b5\'bc\'c8\'ebFMDB\'b5\'c4\'ce\'c4\'bc\'fe\
+3.\'d0\'de\'b8\'c4XCODE\'b2\'bf\'b7\'d6\'b4\'fa\'c2\'eb\'d6\'b4\'d0\'d0MRC:\'b5\'e3\'bb\'f7\'c0\'b6\'c9\'ab\'ce\'c4\'b5\'b5\'a1\'aaTARGETS\'a1\'aaBuild  Phases  \'d1\'a1\'d6\'d0FMDB\'b5\'c4.m\'ce\'c4\'bc\'fe,\'ca\'e4\'c8\'eb(-fno-objc-arc)\
+4.\'b5\'bc\'c8\'ebFMDatabaseHeader.h\
+5.\'d7\'e9\'ba\'cf\'b3\'f6\'ca\'fd\'be\'dd\'bf\'e2\'cb\'f9\'d4\'da\'b5\'c4\'ce\'c4\'bc\'fe\'b5\'d8\'d6\'b7\
+NSString *filePath=[NSString stringByAppendingPathComponent]\
+6.\'b4\'b4\'bd\'a8FMDB\'b5\'c4\'b6\'d4\'cf\'f3\
+db=[FMDatabase alloc]initWithPath:filePath]\
+7.\'b4\'b4\'bd\'a8\'ca\'fd\'be\'dd\'bf\'e2\'c0\'ef\'b5\'c4\'b1\'ed\
+@\'a1\'b0create table if not exists table(id integer primary key auto increment  not null ,name  text )\'a1\'b1\
+[db executeUpdate:NSString]\
+8.\'d4\'da\'b1\'ed\'d6\'d0\'b2\'e5\'c8\'eb\'ca\'fd\'be\'dd\
+@\'a1\'b0insert  into  table (name,number,\'b9\'d8\'bc\'fc\'d7\'d6) values(\'a1\'ae%@\'a1\'af)\'a1\'b1\
+(\'d7\'d6\'b7\'fb\'b4\'ae\'c0\'e0\'d0\'cd\'b5\'c4\'b1\'d8\'d0\'eb\'bc\'d3\'b5\'a5\'d2\'fd\'ba\'c5,)\
+[db executeUpdate:NSString]\
+9.\'c9\'be\'b3\'fd\'ca\'fd\'be\'dd\
+@\'a1\'b0delete from table where \'b9\'d8\'bc\'fc\'d7\'d6=%@\'a1\'b1\
+[db executeUpdate:]\
+10.\'b2\'e9\'d1\'af\'ca\'fd\'be\'dd\'bf\'e2\'d6\'d0\'b5\'c4\'d4\'aa\'cb\'d8\
+@\'a1\'b0select *from table  where \'c1\'d0\'b5\'c4\'c3\'fb\'d7\'d6(\'b9\'d8\'bc\'fc\'d7\'d6)=%@\'a1\'b1\
+FMResultSet *rs=[db executeQuery:\'c6\'b4\'bd\'d3\'b3\'f6\'c0\'b4\'b5\'c4\'d3\'ef\'be\'e4]\
+while ([rs next])\
+\{\
+[rs   stringForColum@\'a1\'b0\'c1\'d0\'b5\'c4\'c3\'fb\'d7\'d6\'a1\'b1]\
+\}\
+\
+51.\'d0\'ad\'d2\'e9(\'d0\'ad\'d2\'e9\'b4\'ab\'d6\'b5\'d2\'bb\'b0\'e3\'d4\'da\'b7\'b4\'cf\'f2\'b4\'ab\'d6\'b5,\'bb\'d8\'b5\'f7\'b7\'bd\'b7\'a8\'b5\'c4\'ca\'b1\'ba\'f2\'b2\'c5\'bb\'e1\'ca\'b9\'d3\'c3)\
+\'ca\'b5\'cf\'d6\'c1\'cb\'ce\'b1\'b6\'e0\'d6\'d8\'bc\'cc\'b3\'d0,\'cd\'a8\'b9\'fd\'b4\'ab\'d6\'b5\'d7\'d4\'c9\'ed\'b9\'fd\'c8\'a5,\'c8\'bb\'ba\'f3\'cd\'a8\'b9\'fd\'d7\'d4\'c9\'ed\'b5\'c4\'b6\'d4\'cf\'f3\'bb\'d8\'b5\'f7\'ce\'b1\'b8\'b8\'c0\'e0(\'d0\'ad\'d2\'e9\'c0\'e0)\'b5\'c4\'b7\'bd\'b7\'a8\
+oc\'b2\'bb\'d6\'a7\'b3\'d6\'b6\'e0\'d6\'d8\'bc\'cc\'b3\'d0,\'d2\'aa\'cf\'eb\'ca\'b5\'cf\'d6\'c0\'e0\'cb\'c6\'b6\'e0\'d6\'d8\'bc\'cc\'b3\'d0,\'ca\'b9\'d3\'c3\'d0\'ad\'d2\'e9\
+:ViewController:UIViewController<delegate>\
+52.\'bf\'d8\'bc\'fe\'b5\'c4\'bd\'bb\'bb\'a5\'d0\'d4\
+userInteractionEnabled\
+\
+53.\'cd\'a8\'d6\'aa\
+\'d7\'a2\'b2\'e1\'d2\'bb\'b8\'f6\'cd\'a8\'d6\'aa\
+[NSNotificationCenter  defaultCenter]addObserver:self selector:@selector(change:) name:@\'a1\'b0\'a1\'b1object:nil]\
+\'b7\'a2\'cb\'cd\'cd\'a8\'d6\'aa\
+[NSNotificationCentrer   defaultCenter ]postNotificationName: object:nil  userInfo:NSDictionary]\
+\'bd\'d3\'ca\'d5\'cd\'a8\'d6\'aa\'d0\'af\'b4\'f8\'b5\'c4\'b2\'ce\'ca\'fd\
+[notification  userInfo]\
+\
+\
+54.\'c1\'bd\'b8\'f6\'ca\'d3\'cd\'bc\'bf\'d8\'d6\'c6\'c6\'f7\'b5\'c4\'ca\'d3\'cd\'bc\'bf\'c9\'d2\'d4\'d6\'d8\'b5\'fe\
+\
+\
+\pard\pardeftab720\sl500
+
+\f0 \cf0 55
+\f1 .\'c5\'c4\'bb\'f7
+\f0 UITapGestureRecognizer (
+\f1 \'c8\'ce\'d2\'e2\'b4\'ce\'ca\'fd\'b5\'c4\'c5\'c4\'bb\'f7
+\f0 )\'a0\'a0\
+    
+\f1 \'cf\'f2\'c0\'ef\'bb\'f2\'cf\'f2\'cd\'e2\'c4\'f3
+\f0 UIPinchGestureRecognizer (
+\f1 \'d3\'c3\'d3\'da\'cb\'f5\'b7\'c5
+\f0 )\'a0\'a0\
+\'a0\'a0\'a0 
+\f1 \'d2\'a1\'b6\'af\'bb\'f2\'d5\'df\'cd\'cf\'d7\'a7
+\f0 UIPanGestureRecognizer (
+\f1 \'cd\'cf\'b6\'af
+\f0 )\'a0\
+\'a0\'a0\'a0 
+\f1 \'b2\'c1\'c5\'f6
+\f0 UISwipeGestureRecognizer (
+\f1 \'d2\'d4\'c8\'ce\'d2\'e2\'b7\'bd\'cf\'f2
+\f0 )\'a0\'a0\
+\'a0\'a0\'a0 
+\f1 \'d0\'fd\'d7\'aa
+\f0 UIRotationGestureRecognizer (
+\f1 \'ca\'d6\'d6\'b8\'b3\'af\'cf\'e0\'b7\'b4\'b7\'bd\'cf\'f2\'d2\'c6\'b6\'af
+\f0 )\'a0\'a0\
+\'a0\'a0\'a0 
+\f1 \'b3\'a4\'b0\'b4
+\f0 UILongPressGestureRecognizer\'a0(
+\f1 \'b3\'a4\'b0\'b4
+\f0 )\
+\pard\tx1155\pardeftab1155\pardirnatural
+
+\f3 \cf0 \CocoaLigature0 56.  //   part1 
+\f1 \'cf\'de\'d6\'c6\'b5\'b1\'c7\'b0\'ce\'c4\'d7\'d6\'d7\'ee\'b4\'f3\'bf\'ed\'b6\'c8\'ba\'cd\'d7\'ee\'b8\'df\'b8\'df\'b6\'c8
+\f3 \
+//    part2
+\f1 \'bb\'e6\'bb\'ad\'b7\'bd\'b7\'a8
+\f3 \
+//    part3 
+\f1 \'ce\'c4\'d7\'d6\'d7\'d6\'ba\'c5
+\f3 \
+    NSString*a = @"sdsd";\
+    [a  boundingRectWithSize:CGSizeMake(320, 480)   options:NSStringDrawingUsesLineFragmentOrigin| NSStringDrawingUsesFontLeading attributes:@\{NSFontAttributeName:[UIFont systemFontOfSize:17 ]\} context:nil];\
+\
+
+\f1 \'b3\'cc\'d0\'f2\'d4\'cb\'d0\'d0\'b9\'fd\'b3\'cc
+\f3 :
+\f1 \'d4\'a4\'b1\'e0\'d2\'eb
+\f3 \'97>
+\f1 \'b1\'e0\'d2\'eb
+\f3 \'97>
+\f1 \'bb\'e3\'b1\'e0
+\f3 \'97>
+\f1 \'bb\'e3\'bd\'d3
+\f3 ->
+\f1 \'d4\'cb\'d0\'d0
+\f3 \
+Gc
+\f1 \'ca\'c7\'d4\'cb\'d0\'d0\'ca\'b1\'b5\'c4\'cc\'d8\'d0\'d4
+\f3 ,OC
+\f1 \'ca\'c7\'b1\'e0\'d2\'eb\'ca\'b1\'b5\'c4\'cc\'d8\'d0\'d4
+\f3 .\
+
+\f1 \'d2\'b0\'d6\'b8\'d5\'eb
+\f3 :
+\f1 \'d6\'b8\'cf\'f2\'d2\'bb\'b8\'f6\'d2\'d1\'be\'ad\'ca\'cd\'b7\'c5\'b5\'c4\'b6\'d4\'cf\'f3
+\f3 ;\
+\
+\pard\tx1155\pardeftab1155\pardirnatural
+\cf2  \cf0 __bridge\
+     oc
+\f1 \'d3\'da
+\f3 c
+\f1 \'b5\'c4\'b6\'d4\'cf\'f3\'cf\'e0\'bb\'a5\'d7\'aa\'bb\'af\'ca\'b1\'ca\'b9\'d3\'c3
+\f3 \
+     
+\f1 \'d4\'da\'ca\'b9\'d3\'c3\'b3\'a1\'be\'b0\'c9\'cf\'a3\'ac\'b5\'b1\'c4\'e3\'b5\'c4\'b6\'d4\'cf\'f3\'d3\'c3\'d3\'da\'be\'d6\'b2\'bf\'b6\'d4\'cf\'f3\'d7\'aa\'bb\'bb\'ca\'b1\'ca\'b9\'d3\'c3.\'d7\'aa\'bb\'bb\'ca\'b1\'d2\'fd\'d3\'c3\'bc\'c6\'ca\'fd\'b2\'bb\'b1\'e4
+\f3 \
+ c -> oc\
+     
+\f1 \'d7\'aa\'bb\'bb\'ca\'b1\'d2\'fd\'d3\'c3\'bc\'c6\'ca\'fd\'b2\'bb\'b1\'e4
+\f3 \
+     */\
+    People *people = (__bridge People *)_people;\
+\
+\
+ __bridge_retained\
+     oc
+\f1 \'d7\'aa\'bb\'bb\'ce\'aa
+\f3 c
+\f1 \'ca\'b1\'ca\'b9\'d3\'c3\'a3\'ac
+\f3 \
+     
+\f1 \'d4\'da\'ca\'b9\'d3\'c3\'b3\'a1\'be\'b0\'c9\'cf\'a3\'ac\'b5\'b1
+\f3 oc
+\f1 \'b6\'d4\'cf\'f3\'d7\'aa\'bb\'bb\'ce\'aa
+\f3 c
+\f1 \'b5\'c4\'c8\'ab\'be\'d6\'b6\'d4\'cf\'f3\'ca\'b1\'ca\'b9\'d3\'c3
+\f3 retained,
+\f1 \'d7\'aa\'bb\'bb\'ca\'b1\'d2\'fd\'d3\'c3\'bc\'c6\'ca\'fd\'bc\'d3
+\f3 1\
+     \
+ __bridge_transfer\
+     c
+\f1 \'d7\'aa\'bb\'bb\'ce\'aa
+\f3 oc
+\f1 \'b6\'d4\'cf\'f3\'ca\'b9\'d3\'c3\'a3\'ac
+\f3 \
+     
+\f1 \'d4\'da\'ca\'b9\'d3\'c3\'b3\'a1\'be\'b0\'c9\'cf\'a3\'ac\'b5\'b1
+\f3 c
+\f1 \'b6\'d4\'cf\'f3\'d7\'aa\'bb\'bb\'ce\'aa
+\f3 oc
+\f1 \'b6\'d4\'cf\'f3\'d6\'ae\'ba\'f3\'a3\'ac
+\f3 c
+\f1 \'b5\'c4\'d6\'b8\'d5\'eb\'b2\'bb\'d4\'da\'ca\'b9\'d3\'c3\'ba\'f3\'a3\'ac\'d7\'aa\'bb\'bb\'ca\'b1\'d2\'fd\'d3\'c3\'bc\'c6\'ca\'fd\'bc\'f51;\
+\
+\
+\pard\tx566\tx1133\tx1700\tx2267\tx2834\tx3401\tx3968\tx4535\tx5102\tx5669\tx6236\tx6803\pardirnatural
+\cf0 \CocoaLigature1 \'b3\'d6\'be\'c3\'bb\'af\'ca\'fd\'be\'dd\'b4\'e6\'b4\'a2 ,\'bd\'ab\'ca\'fd\'be\'dd\'d2\'d4\'ce\'c4\'bc\'fe\'b5\'c4\'b8\'f1\'ca\'bd\'b4\'e6\'b4\'a2\'b5\'bd\'b1\'be\'b5\'d8,\
+\
+\
+\'c9\'b3\'ba\'d0\'ca\'c7\'ca\'d6\'bb\'fa\'cf\'b5\'cd\'b3\'b5\'c4\'d2\'bb\'d6\'d6\'b0\'b2\'c8\'ab\'bb\'fa\'d6\'c6,\'ce\'d2\'c3\'c7\'ca\'d6\'bb\'fa\'c3\'bf\'b0\'b2\'d7\'b0\'d2\'bb\'b8\'f6\'d3\'a6\'d3\'c3\'be\'cd\'bb\'e1\'ce\'aa\'d5\'e2\'b8\'f6\'d3\'a6\'d3\'c3\'b7\'d6\'c5\'e4\'d2\'bb\'b8\'f6\'ce\'c4\'bc\'fe\'bc\'d0,\'d5\'e2\'b8\'f6\'ce\'c4\'bc\'fe\'bc\'d0\'d6\'bb\'c4\'dc\'b8\'c3\'d3\'a6\'d3\'c3\'b7\'c3\'ce\'ca,\'cd\'ac\'ca\'b1\'b8\'c3\'d3\'a6\'d3\'c3\'d6\'bb\'c4\'dc\'b7\'c3\'ce\'ca\'d5\'e2\'b8\'f6\'ce\'c4\'bc\'fe\'bc\'d0\
+\
+         NSUserdefaults    \'cf\'b5\'cd\'b3\'cc\'e1\'b9\'a9\'b5\'c4\'c7\'e1\'c1\'bf\'bc\'b6\'ca\'fd\'be\'dd\'b4\'e6\'b4\'a2\'b5\'c4\'d2\'bb\'d6\'d6\'b7\'bd\'ca\'bd   \'d3\'c3\'d3\'da\'b4\'e6\'b4\'a2\'d3\'c3\'bb\'a7\'b5\'c4\'d2\'bb\'d0\'a9\'c5\'e4\'d6\'c3\'d0\'c5\'cf\'a2 \
+ \'bb\'ba\'b4\'e6\'ce\'c4\'bc\'fe:\'c9\'b3\'ba\'d0/Library/preferences\
+\'b4\'e6\'b4\'a2\'b5\'c4\'ce\'c4\'bc\'fe\'b8\'f1\'ca\'bdplist\
+\
+\'ce\'c4\'bc\'fe\'d0\'b4\'c8\'ebwriteToFile:\
+nsarray,nsdictionary \'ce\'c4\'bc\'fe\'d0\'b4\'c8\'ebplist\
+nsstring  \'ce\'c4\'bc\'fe\'c0\'e0\'cb\'c6\'d3\'datxt\
+\
+sqlite  :\'ca\'fd\'be\'dd\'b4\'e6\'b4\'a2\'b5\'c4\'d2\'bb\'d6\'d6\'b7\'bd\'ca\'bd,\'d3\'c3\'d3\'da\'b4\'e6\'b4\'a2\'b8\'f1\'ca\'bd\'cd\'b3\'d2\'bb\'b5\'c4\'ca\'fd\'be\'dd\
+FMDB  \'b5\'da\'c8\'fd\'b7\'bd\'bf\'e2,\'d3\'c3\'d3\'da\'b6\'d4sqlite\'b5\'c4\'d2\'bb\'b8\'f6\'b7\'e2\'d7\'b0,\'c8\'c3\'ce\'d2\'c3\'c7\'cd\'a8\'b9\'fdoc\'b5\'c4\'d3\'ef\'d1\'d4\'bd\'f8\'d0\'d0\'ca\'fd\'be\'dd\'b4\'e6\'b4\'a2;\
+\
+Documents:\'b4\'e6\'b4\'a2\'d3\'c3\'bb\'a7\'d0\'c5\'cf\'a2,\'b4\'e6\'b5\'b5,\'ce\'c4\'b8\'e5\'b5\'c8\
+Library:\'b4\'e6\'b4\'a2\'cf\'b5\'cd\'b3\'d0\'c5\'cf\'a2\'cf\'e0\'b9\'d8\'b5\'c4\'b6\'ab\'ce\'f7;\
+tmp:\'c1\'d9\'ca\'b1\'ce\'c4\'bc\'fe , \'d7\'d4\'bc\'ba\'b4\'b4\'bd\'a8\'b5\'c4\
+\
+iCloud:Documents\'ba\'cdLibrary\
+\
+\pard\tx1155\pardeftab1155\pardirnatural
+
+\f3 \cf2 \CocoaLigature0  
+\f1 \cf0 \'ca\'c2\'bc\'fe\'cf\'ec\'d3\'a6\'d5\'df
+\f3 :
+\f1 \'d3\'c3\'bb\'a7\'b5\'e3\'bb\'f7\'c6\'c1\'c4\'bb\'ca\'b1
+\f3 ,UIResponder
+\f1 \'bb\'f1\'c8\'a1\'b5\'bd\'ca\'c2\'bc\'fe
+\f3 ,
+\f1 \'c6\'e4\'d6\'d0
+\f3 UIResponder
+\f1 \'be\'cd\'bd\'d0\'ca\'c2\'bc\'fe\'cf\'ec\'d3\'a6\'d5\'df
+\f0\fs24 \CocoaLigature1 \
+\pard\tx1155\pardeftab1155\pardirnatural
+
+\f3\fs48 \cf0 \CocoaLigature0 //
+\f1 \'ca\'c2\'bc\'fe\'cf\'ec\'d3\'a6\'d5\'df\'c1\'b4
+\f3 :
+\f1 \'b5\'b1\'d2\'bb\'b8\'f6\'ca\'c2\'bc\'fe\'cf\'ec\'d3\'a6\'d5\'df\'ca\'d5\'b5\'bd\'ca\'c2\'bc\'fe\'ba\'f3\'b2\'a2\'c3\'bb\'d3\'d0\'d7\'f6\'b3\'f6\'cf\'ec\'d3\'a6\'b5\'c4\'b2\'d9\'d7\'f7
+\f3 ,
+\f1 \'c4\'c7\'c3\'b4\'cb\'fc\'bb\'e1\'bd\'ab\'d5\'e2\'b8\'f6\'ca\'c2\'bc\'fe\'cf\'f2\'c9\'cf\'b4\'ab\'b5\'dd\'b5\'bd\'cf\'c2\'d2\'bb\'b8\'f6\'cf\'ec\'d3\'a6\'d5\'df
+\f3 ,
+\f1 \'c8\'e7\'b9\'fb\'cf\'c2\'d2\'bb\'b8\'f6\'cf\'ec\'d3\'a6\'d5\'df\'bb\'b9\'c3\'bb\'d3\'d0\'d7\'f6\'b3\'f6\'cf\'ec\'d3\'a6
+\f3 ,
+\f1 \'c4\'c7\'c3\'b4\'bb\'e1\'b2\'bb\'b6\'cf\'cf\'f2\'c9\'cf\'b4\'ab\'b5\'dd.
+\f0\fs24 \CocoaLigature1 \
+
+\f3\fs48 \CocoaLigature0 UIWindow
+\f1 \'d7\'ee\'cf\'c8\'ca\'d5\'b5\'bd\'ca\'c2\'bc\'fe
+\f3 \
+\pard\tx1155\pardeftab1155\pardirnatural
+
+\f1 \cf0 \CocoaLigature1 \
+{\field{\*\fldinst{HYPERLINK "http://www.cocoachina.com/ios/20160323/15770.html"}}{\fldrslt http://www.cocoachina.com/ios/20160323/15770.html}}\
+\
+\
+ \'b6\'a8\'d2\'e5\'b3\'a3\'c1\'bf     const  {\field{\*\fldinst{HYPERLINK "http://www.yyxt.com/tutorial/10576.html"}}{\fldrslt http://www.yyxt.com/tutorial/10576.html}}\
+\
+ \'b6\'d4\'cf\'f3\'d0\'f2\'c1\'d0\'bb\'af  runtime  {\field{\*\fldinst{HYPERLINK "http://www.cocoachina.com/ios/20160406/15733.html"}}{\fldrslt http://www.cocoachina.com/ios/20160406/15733.html}}\
+\
+\'b6\'fe\'ce\'ac\'c2\'eb\'c9\'fa\'b3\'c9  {\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/xubaoaichiyu/p/5382231.html"}}{\fldrslt http://www.cnblogs.com/xubaoaichiyu/p/5382231.html}}\
+\
+{\field{\*\fldinst{HYPERLINK "http://www.cocoachina.com/special/career/"}}{\fldrslt http://www.cocoachina.com/special/career/}} \'c3\'e6\'ca\'d4\'cc\'e2\
+\
+\
+{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/ygm900/p/4583955.html"}}{\fldrslt http://www.cnblogs.com/ygm900/p/4583955.html}}  \'bd\'e7\'c3\'e6\'ca\'ca\'c5\'e4\
+{\field{\*\fldinst{HYPERLINK "http://www.cnblogs.com/ygm900/p/4580974.html"}}{\fldrslt http://www.cnblogs.com/ygm900/p/4580974.html}}  
+\f4\fs28 \cf3 UIEdgeInsets \
+\pard\pardeftab720\sl380
+
+\f5\fs36 \cf4 UIEdgeInsetsMake(\cf0 0,\'a00,\'a00,\'a00);\'a0\'a0
+\f4 \cf3   \
+\pard\pardeftab720\sl500
+
+\f1 \cf3 \'c4\'e3\'bf\'c9\'d2\'d4\'d4\'da\'c0\'ad\'c9\'ec\'cd\'bc\'c6\'ac\'ca\'b1\'a3\'ac\'d4\'da\'cd\'bc\'c6\'ac\'d6\'d0\'c9\'cf\'a1\'a2\'d7\'f3\'a1\'a2\'cf\'c2\'a1\'a2\'d3\'d2\'cb\'c4\'b8\'f6\'b1\'df\'d4\'b5\'d6\'b8\'b6\'a8\'b3\'f6\'b2\'bb\'d4\'ca\'d0\'ed\'c0\'ad\'c9\'ec\'b5\'c4\'b2\'bf\'b7\'d6\'a1\'a3
+\fs48 \cf0 \
+\pard\pardeftab720\sl500
+{\field{\*\fldinst{HYPERLINK "http://my.oschina.net/leejan97/blog/284193"}}{\fldrslt \cf0 http://my.oschina.net/leejan97/blog/284193}} \'be\'b2\'cc\'ac\'bf\'e2}
